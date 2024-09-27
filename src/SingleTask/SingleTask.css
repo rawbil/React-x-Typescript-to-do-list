@@ -1,0 +1,58 @@
+.single-task {
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.single-task .check {
+    width: 1rem;
+    height: 1rem;
+}
+
+.single-task label {
+    width: 85%;
+    margin: auto;
+    padding-top: 10px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.task-label {
+    width: 85%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.single-task .icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.single-task .icons svg {
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.single-task .icons svg:hover {
+    opacity: .65
+}
+
+.single-task .icons hr {
+    width: 0;
+    height: 30px;
+}
+
+.single-task .icons .delete {
+    color: rgba(255, 0, 0, 0.831);
+}
+
+.single-task .icons .edit {
+    color: green
+}
